@@ -2,6 +2,7 @@ import tkinter as tk
 from page1 import Page1
 from page2 import Page2
 from page3 import Page3
+from page4 import Page4
 from backend import get_database
 
 # Hämta MongoDB collection via backend
@@ -10,6 +11,9 @@ collection = get_database()
 def show_frame(frame):
     frame.tkraise()
     update_header_buttons(frame)
+    # Update stats if page has update_stats method
+    if hasattr(frame, "update_stats"):
+        frame.update_stats()
 
 def update_header_buttons(active_frame):
     for page, button in header_buttons.items():
@@ -35,14 +39,16 @@ container.columnconfigure(0, weight=1)
 page1 = Page1(container, headercolor, backgroundcolor, collection)
 page2 = Page2(container, headercolor, backgroundcolor, collection)
 page3 = Page3(container, headercolor, backgroundcolor, collection)
+page4 = Page4(container, headercolor, backgroundcolor, collection)
 
-for page in (page1, page2, page3):
+for page in (page1, page2, page3, page4):
     page.grid(row=0, column=0, sticky="nsew")
 
 page_titles = {
     page1: "Dashboard",
     page2: "Tidsperiod",
-    page3: "Specifikt Datum"
+    page3: "Specifikt Datum",
+    page4: "AI"
 }
 
 header_buttons = {}
@@ -56,14 +62,17 @@ tk.Label(header_frame, text="Matsvinn NTI", bg=headercolor, font=("Arial", 20, "
 btn_dash = tk.Button(header_frame, font=("Arial", 14), command=lambda: show_frame(page1))
 btn_time = tk.Button(header_frame, font=("Arial", 14), command=lambda: show_frame(page2))
 btn_day  = tk.Button(header_frame, font=("Arial", 14), command=lambda: show_frame(page3))
+btn_AI  = tk.Button(header_frame, font=("Arial", 14), command=lambda: show_frame(page4))
 
 btn_dash.pack(side="right", padx=5)
 btn_time.pack(side="right", padx=5)
 btn_day.pack(side="right", padx=5)
+btn_AI.pack(side="right", padx=5)
 
 header_buttons[page1] = btn_dash
 header_buttons[page2] = btn_time
 header_buttons[page3] = btn_day
+header_buttons[page4] = btn_AI
 
 show_frame(page1)
 

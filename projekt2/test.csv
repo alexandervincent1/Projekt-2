@@ -1,0 +1,101 @@
+datum,meal,students_total,students_ate,mat_slängt_kg
+2025-11-17,Fish sticks with mashed potatoes,800,768,10.01
+2025-11-16,Lentil stew,800,677,18.5
+2025-11-15,Spaghetti Bolognese,800,740,5.21
+2025-11-14,Chicken curry with rice,800,757,10.67
+2025-11-13,Spaghetti Bolognese,800,777,8.56
+2025-11-12,Fish casserole,800,677,7.78
+2025-11-11,Meatballs with potatoes,800,760,19.88
+2025-11-10,Pea soup with bread,800,685,36.61
+2025-11-09,Chicken curry with rice,800,747,20.85
+2025-11-08,Fish casserole,800,672,76.73
+2025-11-07,Sausage and macaroni,800,748,18.99
+2025-11-06,Vegetarian lasagna,800,769,9.52
+2025-11-05,Chicken curry with rice,800,699,29.14
+2025-11-04,Meatballs with potatoes,800,727,11.32
+2025-11-03,Meatballs with potatoes,800,722,24.72
+2025-11-02,Pea soup with bread,800,639,48.65
+2025-11-01,Meatballs with potatoes,800,721,46.01
+2025-10-31,Sausage and macaroni,800,766,2.73
+2025-10-30,Pea soup with bread,800,765,15.37
+2025-10-29,Lentil stew,800,606,28.92
+2025-10-28,Pancakes with jam,800,750,15.0
+2025-10-27,Chicken curry with rice,800,741,10.69
+2025-10-26,Fish casserole,800,742,30.13
+2025-10-25,Meatballs with potatoes,800,736,26.56
+2025-10-24,Fish casserole,800,739,23.61
+2025-10-23,Lentil stew,800,629,82.01
+2025-10-22,Fish sticks with mashed potatoes,800,707,31.4
+2025-10-21,Lentil stew,800,649,36.49
+2025-10-20,Meatballs with potatoes,800,738,30.62
+2025-10-19,Lentil stew,800,761,4.11
+2025-10-18,Fish casserole,800,739,33.47
+2025-10-17,Spaghetti Bolognese,800,759,3.91
+2025-10-16,Meatballs with potatoes,800,734,29.19
+2025-10-15,Meatballs with potatoes,800,753,13.14
+2025-10-14,Meatballs with potatoes,800,756,10.07
+2025-10-13,Vegetarian lasagna,800,750,29.31
+2025-10-12,Sausage and macaroni,800,754,20.71
+2025-10-11,Chicken curry with rice,800,770,3.24
+2025-10-10,Sausage and macaroni,800,763,14.33
+2025-10-09,Vegetarian lasagna,800,721,41.56
+2025-10-08,Sausage and macaroni,800,725,32.07
+2025-10-07,Pancakes with jam,800,745,23.86
+2025-10-06,Pea soup with bread,800,752,6.47
+2025-10-05,Pancakes with jam,800,753,3.97
+2025-10-04,Spaghetti Bolognese,800,745,27.88
+2025-10-03,Fish casserole,800,654,63.81
+2025-10-02,Fish casserole,800,750,11.3
+2025-10-01,Pea soup with bread,800,713,50.63
+2025-09-30,Spaghetti Bolognese,800,737,36.71
+2025-09-29,Pancakes with jam,800,742,34.52
+2025-09-28,Fish casserole,800,621,91.21
+2025-09-27,Pea soup with bread,800,668,36.19
+2025-09-26,Lentil stew,800,687,53.89
+2025-09-25,Vegetarian lasagna,800,717,9.32
+2025-09-24,Spaghetti Bolognese,800,754,15.89
+2025-09-23,Vegetarian lasagna,800,718,26.95
+2025-09-22,Chicken curry with rice,800,749,26.33
+2025-09-21,Pea soup with bread,800,760,18.0
+2025-09-20,Sausage and macaroni,800,743,8.78
+2025-09-19,Fish sticks with mashed potatoes,800,752,25.0
+2025-09-18,Sausage and macaroni,800,767,8.14
+2025-09-17,Spaghetti Bolognese,800,771,8.58
+2025-09-16,Spaghetti Bolognese,800,740,19.65
+2025-09-15,Pancakes with jam,800,759,6.94
+2025-09-14,Lentil stew,800,674,68.37
+2025-09-13,Sausage and macaroni,800,707,38.86
+2025-09-12,Fish sticks with mashed potatoes,800,734,13.01
+2025-09-11,Pancakes with jam,800,780,3.02
+2025-09-10,Pea soup with bread,800,771,13.54
+2025-09-09,Pea soup with bread,800,756,15.5
+2025-09-08,Pea soup with bread,800,740,8.88
+2025-09-07,Vegetarian lasagna,800,695,60.18
+2025-09-06,Fish sticks with mashed potatoes,800,735,20.92
+2025-09-05,Pea soup with bread,800,708,17.74
+2025-09-04,Sausage and macaroni,800,732,9.8
+2025-09-03,Fish casserole,800,644,80.52
+2025-09-02,Lentil stew,800,682,63.96
+2025-09-01,Vegetarian lasagna,800,738,21.0
+2025-08-31,Sausage and macaroni,800,726,37.75
+2025-08-30,Pea soup with bread,800,741,35.25
+2025-08-29,Pea soup with bread,800,712,34.43
+2025-08-28,Fish sticks with mashed potatoes,800,712,29.33
+2025-08-27,Meatballs with potatoes,800,739,21.3
+2025-08-26,Fish sticks with mashed potatoes,800,674,14.23
+2025-08-25,Fish casserole,800,613,16.26
+2025-08-24,Vegetarian lasagna,800,741,27.52
+2025-08-23,Chicken curry with rice,800,764,5.76
+2025-08-22,Vegetarian lasagna,800,702,13.5
+2025-08-21,Meatballs with potatoes,800,733,10.13
+2025-08-20,Pancakes with jam,800,746,3.72
+2025-08-19,Chicken curry with rice,800,753,20.46
+2025-08-18,Vegetarian lasagna,800,781,6.53
+2025-08-17,Spaghetti Bolognese,800,747,10.74
+2025-08-16,Fish casserole,800,700,57.2
+2025-08-15,Meatballs with potatoes,800,728,35.25
+2025-08-14,Pancakes with jam,800,749,21.04
+2025-08-13,Pancakes with jam,800,743,7.76
+2025-08-12,Sausage and macaroni,800,731,36.97
+2025-08-11,Fish casserole,800,728,34.33
+2025-08-10,Lentil stew,800,686,63.77
